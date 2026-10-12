@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# environment variables (contains the Ticketmaster API key - never commit)
+.env
+.env.local
+.env.*.local
+
+# logs & editor files
+*.log
+.DS_Store
+.vscode/
+.idea/
